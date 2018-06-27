@@ -4,7 +4,7 @@ const { join } = require('path')
 
 module.exports = {
 
-  schema: join(__dirname, '../app/Schema'),
+  schema: join(__dirname, '../app/Graphs/Schema'),
 
-  resolvers: join(__dirname, '../app/Resolvers')
+  resolvers: join(__dirname, '../app/Graphs/Resolvers')
 }
